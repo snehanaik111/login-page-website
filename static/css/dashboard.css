@@ -1,0 +1,31 @@
+/* dashboard.css */
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-username {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-logout {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+.dashboard-logout:hover {
+    color: #0056b3;
+}
